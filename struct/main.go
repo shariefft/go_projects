@@ -22,8 +22,14 @@ func main() {
 	}
 
 	entryOne := helper.NewNote(noteTitle, noteContent)
-	fmt.Println('\n')
-	fmt.Println(entryOne)
+	entryOne.Display()
+	entryOne.Save()
 
+	if error != nil {
+		fmt.Println("Saving the note failed")
+		return
+	}
+
+	fmt.Println("Saving the note succeeded")
 }
 
