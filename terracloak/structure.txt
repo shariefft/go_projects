@@ -1,0 +1,39 @@
+project-root/
+│
+├── terraform/
+│   ├── main.tf
+│   └── variables.tf
+│
+├── go-api/
+│   ├── main.go
+│   └── go.mod
+│
+└── README.md
+
+docker run -p 8080:8080 -e KEYCLOAK_USER=admin -e KEYCLOAK_PASSWORD=admin quay.io/keycloak/keycloak:latest start-dev
+
+
+
+
+cd terraform
+terraform init
+terraform plan
+terraform apply
+
+go get github.com/auth0/go-jwt-middleware
+go get github.com/dgrijalva/jwt-go
+
+test integration
+curl -X POST "http://localhost:8080/realms/my_realm/protocol/openid-connect/token" \
+  -H "Content-Type: application/x-www-form-urlencoded" \
+  -d "client_id=go_api_client" \
+  -d "client_secret=go-api-secret" \
+  -d "username=testuser" \
+  -d "password=Password123" \
+  -d "grant_type=password"
+
+
+
+curl http://localhost:8081/public
+
+curl http://localhost:8081/protected -H "Authorization: Bearer <ACCESS_TOKEN>"

@@ -1,0 +1,162 @@
+[
+  {
+    "name": "Bulbasaur",
+    "number": "#001",
+    "classification": "Seed Pokémon",
+    "height": [
+      "2'04\" 0.7m"
+    ],
+    "weight": [
+      "15.2lbs 6.9kg"
+    ],
+    "hit_points": 45,
+    "attack": 49,
+    "defense": 49,
+    "special": 65,
+    "speed": 65
+  },
+  {
+    "name": "Ivysaur",
+    "number": "#002",
+    "classification": "Seed Pokémon",
+    "height": [
+      "3'03\" 1.0m"
+    ],
+    "weight": [
+      "28.7lbs 13.0kg"
+    ],
+    "hit_points": 60,
+    "attack": 62,
+    "defense": 63,
+    "special": 80,
+    "speed": 80
+  },
+  {
+    "name": "Venusaur",
+    "number": "#003",
+    "classification": "Seed Pokémon",
+    "height": [
+      "6'07\" 2.0m"
+    ],
+    "weight": [
+      "220.5lbs 100.0kg"
+    ],
+    "hit_points": 80,
+    "attack": 82,
+    "defense": 83,
+    "special": 100,
+    "speed": 100
+  },
+  {
+    "name": "Charmander",
+    "number": "#004",
+    "classification": "Lizard Pokémon",
+    "height": [
+      "2'00\" 0.6m"
+    ],
+    "weight": [
+      "18.7lbs 8.5kg"
+    ],
+    "hit_points": 39,
+    "attack": 52,
+    "defense": 43,
+    "special": 60,
+    "speed": 50
+  },
+  {
+    "name": "Charmeleon",
+    "number": "#005",
+    "classification": "Flame Pokémon",
+    "height": [
+      "3'07\" 1.1m"
+    ],
+    "weight": [
+      "41.9lbs 19.0kg"
+    ],
+    "hit_points": 58,
+    "attack": 64,
+    "defense": 58,
+    "special": 80,
+    "speed": 65
+  },
+  {
+    "name": "Charizard",
+    "number": "#006",
+    "classification": "Flame Pokémon",
+    "height": [
+      "5'07\" 1.7m"
+    ],
+    "weight": [
+      "199.5lbs 90.5kg"
+    ],
+    "hit_points": 78,
+    "attack": 84,
+    "defense": 78,
+    "special": 109,
+    "speed": 85
+  },
+  {
+    "name": "Squirtle",
+    "number": "#007",
+    "classification": "Tiny Turtle Pokémon",
+    "height": [
+      "1'08\" 0.5m"
+    ],
+    "weight": [
+      "19.8lbs 9.0kg"
+    ],
+    "hit_points": 44,
+    "attack": 48,
+    "defense": 65,
+    "special": 50,
+    "speed": 64
+  },
+  {
+    "name": "Wartortle",
+    "number": "#008",
+    "classification": "Turtle Pokémon",
+    "height": [
+      "3'03\" 1.0m"
+    ],
+    "weight": [
+      "49.6lbs 22.5kg"
+    ],
+    "hit_points": 59,
+    "attack": 63,
+    "defense": 80,
+    "special": 65,
+    "speed": 80
+  },
+  {
+    "name": "Blastoise",
+    "number": "#009",
+    "classification": "Shellfish Pokémon",
+    "height": [
+      "5'03\" 1.6m"
+    ],
+    "weight": [
+      "188.5lbs 85.5kg"
+    ],
+    "hit_points": 79,
+    "attack": 83,
+    "defense": 100,
+    "special": 85,
+    "speed": 105
+  },
+  {
+    "name": "Caterpie",
+    "number": "#010",
+    "classification": "Worm Pokémon",
+    "height": [
+      "1'00\" 0.3m"
+    ],
+    "weight": [
+      "6.4lbs 2.9kg"
+    ],
+    "hit_points": 45,
+    "attack": 30,
+    "defense": 35,
+    "special": 20,
+    "speed": 20
+  }
+]
