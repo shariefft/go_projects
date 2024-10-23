@@ -5,7 +5,6 @@ import (
 	"net/http"
 	"s3proxy/metrics"
 	"s3proxy/proxy"
-
 	"github.com/prometheus/client_golang/prometheus/promhttp"
 )
 
